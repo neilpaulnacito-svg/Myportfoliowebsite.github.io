@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neil Paul's personal portfolio website">
+  <title>My Profile Portfolio - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="index.html">Neil Paul Portfolio</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="navLinks">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WELCOME!</p>
+        <h1>I'm <span>Neil Paul</span>,<br>a BSIT Student.</h1>
+        <p class="intro">Welcome to my personal portfolio. This website introduces who I am, the skills I am learning, and how to contact me.</p>
+        <a href="contact.html" class="primary-button">Get in Touch</a>
+      </div>
+      <div class="profile-frame">
+        <img src="images.PNG" alt="Profile photo of Neil Paul"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="image-placeholder" aria-label="Add your profile photo">NP</div>
+      </div>
+    </section>
+  </main>
+
+  <!--<footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Code by Neil Paul. All rights reserved.</p>
+  </footer> -->
+
+
+</body>
+</html>
